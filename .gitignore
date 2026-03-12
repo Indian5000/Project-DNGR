@@ -4,3 +4,4 @@
 *.spv
 .cache
 compile_commands.json
+Tests\ bins/

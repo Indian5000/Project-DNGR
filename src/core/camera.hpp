@@ -131,7 +131,7 @@ struct RayGenerator {
         // Initial 4-velocity (needs coordinate transformation)
         // For now, simple flat-space approximation
         // TODO: Proper transformation using metric at camera position
-        
+        //This prrtion not to be used 
         // Normalize to null geodesic (light ray): g_μν u^μ u^ν = 0
         // For flat space: u^0 = 1, u^i = direction
         state.u = {1.0, dir[0], dir[1], dir[2]};
